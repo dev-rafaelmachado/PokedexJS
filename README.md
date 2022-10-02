@@ -5,3 +5,5 @@
 ## Tecnologias
 - HTML CSS JS
 
+## Link
+- <a href="https://dev-rafaelmachado.github.io/PokedexJS/src/"> PoekedexJS </a>
