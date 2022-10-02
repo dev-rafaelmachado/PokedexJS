@@ -43,7 +43,7 @@ const renderPoke = async (pokemon) => {
     ImgsTypes.innerHTML = ""
     for (let index = 0; index < data.types.length; index++) {
         let img = document.createElement('img')
-        let path = 'imgs/Types/' + data.types[index]['type']['name'] + '.png'
+        let path = '../imgs/Types' + data.types[index]['type']['name'] + '.png'
 
         img.src = path
         ImgsTypes.appendChild(img)
